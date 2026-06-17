@@ -40,10 +40,12 @@ manual_entries contained deliberately injected issues: null rows,
 
 ## Key Findings
 
-- 10 of 400 rows removed — all from manual_entries.csv
+- **400** raw rows combined across all three sources
+- **9** rows removed — all from `manual_entries.csv`
 - Issues: 6 fully null rows, 3 rows with null Account or Amount, 1 junk row (`????` / `#REF!`)
 - SAP and Oracle exports were clean with zero null or duplicate rows
-- Final data quality score: **97.50%**
+- Final clean row count: **391**
+- Final data quality score: **97.75%**
 
 ## Tools
 
@@ -51,7 +53,4 @@ Power BI Desktop · Power Query (M) · DAX · Excel · CSV
 
 ## Dashboard
 
-![Overview 1](public/Overview_1.png)
-![Overview 2](public/Overview_2.png)
-![Overview 3](public/Overview_3.png)
-![Overview 4](public/Overview_4.png)
+![Overview](public/Overview.png)
