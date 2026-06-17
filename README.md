@@ -42,7 +42,7 @@ manual_entries contained deliberately injected issues: null rows,
 
 - **400** raw rows combined across all three sources
 - **9** rows removed — all from `manual_entries.csv`
-- Issues: 6 fully null rows, 3 rows with null Account or Amount, 1 junk row (`????` / `#REF!`)
+- Issues: 6 fully null rows, 3 rows with null Account or Amount
 - SAP and Oracle exports were clean with zero null or duplicate rows
 - Final clean row count: **391**
 - Final data quality score: **97.75%**
